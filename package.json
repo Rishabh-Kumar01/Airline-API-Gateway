@@ -6,7 +6,9 @@
   "scripts": {
     "start": "npx nodemon src/server.js",
     "dev": "npx nodemon src/server.js",
-    "pm2": "pm2 start src/server.js"
+    "pm2:start": "pm2 start src/server.js --name airline-api-gateway",
+    "pm2:stop": "pm2 stop airline-api-gateway",
+    "pm2:delete": "pm2 delete airline-api-gateway"
   },
   "keywords": [],
   "author": "",
