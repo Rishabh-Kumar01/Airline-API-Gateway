@@ -1,7 +1,7 @@
 {
   "name": "flightsandserach",
   "version": "1.0.0",
-  "description": "Micro  service for handling FLIGHT CRUD",
+  "description": "API Gateway for Airline Backend",
   "main": "src/server.js",
   "scripts": {
     "start": "npx nodemon src/server.js",
