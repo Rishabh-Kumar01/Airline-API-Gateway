@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "npx nodemon src/server.js",
-    "dev": "npx nodemon src/server.js"
+    "dev": "npx nodemon src/server.js",
+    "pm2": "pm2 start src/server.js"
   },
   "keywords": [],
   "author": "",
