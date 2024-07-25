@@ -66,3 +66,11 @@ BOOKING_SERVICE_PATH="/bookingservice"
 ## Running the API Gateway
 
 - Start the API Gateway using the following command `npm start`
+
+## Running the pm2 server
+
+- "pm2:start": "pm2 start src/server.js --name airline-api-gateway",
+- "pm2:stop": "pm2 stop airline-api-gateway",
+- "pm2:delete": "pm2 delete airline-api-gateway"
+
+### Then the run the command `npm run pm2:start` to start the pm2 server and so on to stop and delete.
